@@ -1,4 +1,4 @@
-<!--========================================================= 
+<!--=========================================================
     Item Name: Ekka - Ecommerce HTML Template.
     Author: ashishmaraviya
     Version: 3.3
@@ -7,17 +7,17 @@
  ============================================================-->
  <!DOCTYPE html>
  <html lang="en">
- 
+
  <head>
      <meta charset="UTF-8">
      <meta http-equiv="x-ua-compatible" content="ie=edge" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-     
-     <title>Ekka - Ecommerce HTML Template.</title>
+
+     <title>{{ env('APP_NAME') }}</title>
      <meta name="keywords" content="apparel, catalog, clean, ecommerce, ecommerce HTML, electronics, fashion, html eCommerce, html store, minimal, multipurpose, multipurpose ecommerce, online store, responsive ecommerce template, shops" />
      <meta name="description" content="Best ecommerce html template for single and multi vendor store.">
      <meta name="author" content="ashishmaraviya">
-     
+
     <!-- site Favicon -->
     <link rel="icon" href="assets/images/favicon/favicon-8.png" sizes="32x32" />
     <link rel="apple-touch-icon" href="assets/images/favicon/favicon-8.png" />
@@ -39,7 +39,7 @@
 
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/demo8.css" />
-    
+
 </head>
 <body>
     <div id="ec-overlay"><span class="loader_img"></span></div>
@@ -112,7 +112,7 @@
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a class="dropdown-item" href="register.html">Register</a></li>
                                     <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="{{url('/customer/login')}}">Login</a></li>
                                 </ul>
                             </div>
                             <!-- Header User End -->
@@ -150,7 +150,7 @@
                         <!-- Ec Header Logo Start -->
                         <div class="align-self-center">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logo-8.png" alt="Site Logo" /><img
+                                <a href="{{url('/')}}"><img src="assets/images/logo/logo-8.png" alt="Site Logo" /><img
                                         class="dark-logo" src="assets/images/logo/dark-logo-8.png" alt="Site Logo"
                                         style="display: none;" /></a>
                             </div>
@@ -180,7 +180,7 @@
                                     <ul class="dropdown-menu dropdown-menu-right">
                                         <li><a class="dropdown-item" href="register.html">Register</a></li>
                                         <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                        <li><a class="dropdown-item" href="{{url('/customer/login')}}">Login</a></li>
                                     </ul>
                                 </div>
                                 <!-- Header User End -->
@@ -200,7 +200,7 @@
                                 <!-- Header Cart End -->
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@
                     <!-- Ec Header Logo Start -->
                     <div class="col">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo-8.png" alt="Site Logo" /><img
+                            <a href="{{url('/')}}"><img src="assets/images/logo/logo-8.png" alt="Site Logo" /><img
                                     class="dark-logo" src="assets/images/logo/dark-logo-8.png" alt="Site Logo"
                                     style="display: none;" /></a>
                         </div>
@@ -242,7 +242,7 @@
                     <div class="col-md-12 align-self-center">
                         <div class="ec-main-menu">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{url('/')}}">Home</a></li>
                                 <li class="dropdown position-static"><a href="javascript:void(0)">Categories</a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
@@ -356,13 +356,13 @@
                                 </li>
                                 <li class="dropdown"><a href="javascript:void(0)">Pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="contact-us.html">Contact Us</a></li>
+                                        <li><a href="{{url('/about-us')}}">About Us</a></li>
+                                        <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                         <li><a href="cart.html">Cart</a></li>
                                         <li><a href="checkout.html">Checkout</a></li>
                                         <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="{{url('/faq')}}">FAQ</a></li>
+                                        <li><a href="{{url('/customer/login')}}">Login</a></li>
                                         <li><a href="register.html">Register</a></li>
                                         <li><a href="track-order.html">Track Order</a></li>
                                         <li><a href="terms-condition.html">Terms Condition</a></li>
@@ -495,7 +495,7 @@
             <div class="ec-menu-inner">
                 <div class="ec-menu-content">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="javascript:void(0)">Categories</a>
                             <ul class="sub-menu">
                                 <li>
@@ -645,13 +645,13 @@
                         </li>
                         <li><a href="javascript:void(0)">Pages</a>
                             <ul class="sub-menu">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="{{url('/about-us')}}">About Us</a></li>
+                                <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                 <li><a href="cart.html">Cart</a></li>
                                 <li><a href="checkout.html">Checkout</a></li>
                                 <li><a href="compare.html">Compare</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="login.html">Login</a></li>
+                                <li><a href="{{url('/faq')}}">FAQ</a></li>
+                                <li><a href="{{url('/customer/login')}}">Login</a></li>
                                 <li><a href="register.html">Register</a></li>
                                 <li><a href="track-order.html">Track Order</a></li>
                                 <li><a href="terms-condition.html">Terms Condition</a></li>
@@ -866,7 +866,7 @@
             </div>
             </div>
     </div>
-    </div>  
+    </div>
     <!-- Main Slider End -->
 
     <!--  category Section Start -->
@@ -983,7 +983,7 @@
         </div>
     </section>
     <!--category Section End -->
-    
+
     <!-- Product tab Area Start -->
     <section class="section ec-product-tab section-space-p">
         <div class="container">
@@ -1352,11 +1352,11 @@
                                 </div>
                             </div>
                         </div>
-                </div> 
+                </div>
 
                 <!-- Product area start -->
                 <div class="col-lg-9 col-md-12">
- 
+
                     <!-- ec New Arrivals, ec Trending, ec Top Rated Start -->
                     <div class="row">
                         <!-- ec New Arrivals -->
@@ -2007,7 +2007,7 @@
                                     <div class="ec-spe-pro-inner">
                                         <div class="ec-spe-pro-image-outer col-md-6 col-sm-12">
                                             <div class="ec-spe-pro-image">
-                                                <img class="img-responsive" src="assets/images/product-image/111_1.jpg" alt="">                                                                              
+                                                <img class="img-responsive" src="assets/images/product-image/111_1.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="ec-spe-pro-content col-md-6 col-sm-12">
@@ -2147,7 +2147,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">T-Shirt</h6></a> 
+                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">T-Shirt</h6></a>
                                                     <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Relaxed Short full Sleeve T-Shirt</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
@@ -2242,7 +2242,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">jewellery</h6></a> 
+                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">jewellery</h6></a>
                                                     <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Silver Deer Heart Necklace</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
@@ -2435,7 +2435,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">party wear</h6></a> 
+                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">party wear</h6></a>
                                                     <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens Party Wear Shoes</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
@@ -2631,7 +2631,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">T-Shirt</h6></a> 
+                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">T-Shirt</h6></a>
                                                     <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Relaxed Short full Sleeve T-Shirt</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
@@ -3020,7 +3020,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">party wear</h6></a> 
+                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">party wear</h6></a>
                                                     <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens Party Wear Shoes</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
@@ -3406,7 +3406,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">jewellery</h6></a> 
+                                                    <a href="shop-left-sidebar-col-3.html"><h6 class="ec-pro-stitle">jewellery</h6></a>
                                                     <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Silver Deer Heart Necklace</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
@@ -4127,7 +4127,7 @@
                                         <li class="ec-footer-link"><a href="#">Prices drop</a></li>
                                         <li class="ec-footer-link"><a href="#">New products</a></li>
                                         <li class="ec-footer-link"><a href="#">Best sales</a></li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{url('/contact')}}">Contact us</a></li>
                                         <li class="ec-footer-link"><a href="#">Sitemap</a></li>
                                     </ul>
                                 </div>
@@ -4141,7 +4141,7 @@
                                         <li class="ec-footer-link"><a href="track-order.html">Delivery</a></li>
                                         <li class="ec-footer-link"><a href="privacy-policy.html">Legal Notice</a></li>
                                         <li class="ec-footer-link"><a href="terms-condition.html">Terms and conditions</a></li>
-                                        <li class="ec-footer-link"><a href="about-us.html">About us</a></li>
+                                        <li class="ec-footer-link"><a href="{{url('/about-us')}}">About us</a></li>
                                         <li class="ec-footer-link"><a href="checkout.html">Secure payment</a></li>
                                     </ul>
                                 </div>
@@ -4155,7 +4155,7 @@
                                         <li class="ec-footer-link"><a href="#">Prices drop</a></li>
                                         <li class="ec-footer-link"><a href="#">New products</a></li>
                                         <li class="ec-footer-link"><a href="#">Best sales</a></li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{url('/contact')}}">Contact us</a></li>
                                         <li class="ec-footer-link"><a href="#">Sitemap</a></li>
                                     </ul>
                                 </div>
@@ -4221,7 +4221,7 @@
                         <!-- Footer Copyright Start -->
                         <div class="footer-copy">
                             <div class="footer-bottom-copy ">
-                                <div class="ec-copy">Copyright © <a class="site-name" href="index.html">Ekka</a> all
+                                <div class="ec-copy">Copyright © <a class="site-name" href="{{url('/')}}">Ekka</a> all
                                     rights reserved. Powered by Ekka</div>
                             </div>
                         </div>
@@ -4330,7 +4330,7 @@
     <!-- Click To Call -->
     <div class="ec-cc-style cc-right-bottom">
         <!-- Start Floating Panel Container -->
-        <div class="cc-panel">			
+        <div class="cc-panel">
             <!-- Panel Content -->
             <div class="cc-header">
                 <img src="assets/images/whatsapp/profile_01.jpg" alt="profile image"/>
@@ -4383,7 +4383,7 @@
         </div>
     </div>
     <!-- Newsletter Modal end -->
-    
+
     <!-- Footer navigation panel for responsive display -->
     <div class="ec-nav-toolbar">
         <div class="container">
@@ -4398,7 +4398,7 @@
                             class="ec-cart-noti ec-header-count ec-cart-count cart-count-lable">3</span></a>
                 </div>
                 <div class="ec-nav-panel-icons">
-                    <a href="index.html" class="ec-header-btn"><img src="assets/images/icons/home.svg"
+                    <a href="{{url('/')}}" class="ec-header-btn"><img src="assets/images/icons/home.svg"
                             class="svg_img header_svg" alt="icon" /></a>
                 </div>
                 <div class="ec-nav-panel-icons">
@@ -4445,7 +4445,7 @@
     <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
 
     <!--Plugins JS-->
-    
+
     <script src="assets/js/plugins/jquery.sticky-sidebar.js"></script>
     <script src="assets/js/plugins/swiper-bundle.min.js"></script>
     <script src="assets/js/plugins/countdownTimer.min.js"></script>

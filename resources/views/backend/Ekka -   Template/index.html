@@ -14,7 +14,7 @@
 	<meta name="description" content="Best ecommerce html template for single and multi vendor store.">
 	<meta name="keywords" content="apparel, catalog, clean, ecommerce, ecommerce HTML, electronics, fashion, html eCommerce, html store, minimal, multipurpose, multipurpose ecommerce, online store, responsive ecommerce template, shops">
 	<meta name="author" content="ashishmaraviya">
-	<title>Ekka - Ecommerce HTML Template.</title>
+	<title>{{ env('APP_NAME') }}</title>
 	<!-- Fav icon -->
 	<link rel="icon" href="landing-assets/img/favicon.png">
 	<!-- Font Family -->
@@ -37,7 +37,7 @@
 					<div class="col-12">
 						<nav class="navbar navbar-expand-md navbar-light">
 						
-							<a class="navbar-brand" href="index.html" target="_blank"><img src="landing-assets/img/logo.png" alt=""></a>	
+							<a class="navbar-brand" href="{{url('/')}}" target="_blank"><img src="landing-assets/img/logo.png" alt=""></a>	
 							
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon ec-header-btn ec-side-toggle d-lg-none"></span>
@@ -202,12 +202,12 @@
 
 				<!-- Home -->
 				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
-					<a href="ekka-html/index.html" target="_blank" class="preview home-preview">
+					<a href="ekka-html/{{url('/')}}" target="_blank" class="preview home-preview">
 						<span class="pc-bg">
 							<span style="background-image: url('landing-assets/img/01.png');" class="img-scroll"></span>
 						</span>
 					</a>
-					<a href="ekka-html/index.html" target="_blank" class="btn-page">
+					<a href="ekka-html/{{url('/')}}" target="_blank" class="btn-page">
 						<h5 class="card-title">Fashion</h5>
 					</a>	
 				</div>
@@ -1158,22 +1158,22 @@
 
 				<!-- Other -->
 				<div class="col-lg-3 col-md-6 mix single-portfolio-item other">
-					<a href="ekka-html/about-us.html" target="_blank" class="preview">
+					<a href="ekka-html/{{url('/about-us')}}" target="_blank" class="preview">
 						<span class="pc-bg">
 							<span style="background-image: url('landing-assets/img/o-1.png');" class="img-scroll"></span>
 						</span>
 					</a>
-					<a href="ekka-html/about-us.html" target="_blank" class="btn-page">
+					<a href="ekka-html/{{url('/about-us')}}" target="_blank" class="btn-page">
 						<h5 class="card-title">About us</h5>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 mix single-portfolio-item other">
-					<a href="ekka-html/contact-us.html" target="_blank" class="preview">
+					<a href="ekka-html/{{url('/contact')}}" target="_blank" class="preview">
 						<span class="pc-bg">
 							<span style="background-image: url('landing-assets/img/o-2.png');" class="img-scroll"></span>
 						</span>
 					</a>
-					<a href="ekka-html/contact-us.html" target="_blank" class="btn-page">
+					<a href="ekka-html/{{url('/contact')}}" target="_blank" class="btn-page">
 						<h5 class="card-title">contact us</h5>
 					</a>
 				</div>
@@ -1345,12 +1345,12 @@
 
 				<!-- Admin -->				
 				<div class="col-lg-4 col-md-6 mix single-portfolio-item admin">
-					<a href="ekka-admin/index.html" target="_blank" class="preview home-preview">
+					<a href="ekka-admin/{{url('/')}}" target="_blank" class="preview home-preview">
 						<span class="pc-bg">
 							<span style="background-image: url('landing-assets/img/admin-01.png');" class="img-scroll"></span>
 						</span>
 					</a>
-					<a href="ekka-admin/index.html" target="_blank" class="btn-page">
+					<a href="ekka-admin/{{url('/')}}" target="_blank" class="btn-page">
 						<h5 class="card-title">Dashboard</h5>
 					</a>
 				</div>	
@@ -1435,12 +1435,12 @@
 					</a>
 				</div>	
 				<div class="col-lg-4 col-md-6 mix single-portfolio-item admin">	
-					<a href="ekka-admin/index.html" target="_blank" class="preview home-preview">
+					<a href="ekka-admin/{{url('/')}}" target="_blank" class="preview home-preview">
 						<span class="pc-bg">
 							<span style="background-image: url('landing-assets/img/admin.png');" class="img-scroll"></span>
 						</span>
 					</a>
-					<a href="ekka-admin/index.html" target="_blank" class="btn-page">
+					<a href="ekka-admin/{{url('/')}}" target="_blank" class="btn-page">
 						<h5 class="card-title">More Features</h5>
 					</a>
 				</div>	
@@ -1529,7 +1529,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-11.png" alt="hero image">
 						<p class="features-caption">On hover color option to change related produt image and On hover size option to change price.</p>						
 					</div>
-						<a href="ekka-html/index.html"><p class="features-text">Product Cards</p></a>
+						<a href="ekka-html/{{url('/')}}"><p class="features-text">Product Cards</p></a>
 						<p class="features-caption-r">On hover color option to change related produt image and On hover size option to change price.</p>	
 				</div>
 				<!-- End Single features-->
@@ -1559,7 +1559,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-7.png" alt="hero image">
 						<p class="features-caption">Eye catching cart sidebar with increase or decrease quantity of product and easily add, remove it form cart.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">Cart Sidebar</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">Cart Sidebar</p></a>
 					<p class="features-caption-r">Eye catching cart sidebar with increase or decrease quantity of product and easily add, remove it form cart.</p>
 				</div>
 				<!-- End Single features-->
@@ -1570,7 +1570,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-14.png" alt="hero image">
 						<p class="features-caption">Mobile or tablet screen display more attractive & effective Mobile navigation bar.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">Mobile Navbar</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">Mobile Navbar</p></a>
 					<p class="features-caption-r">Mobile or tablet screen display more attractive & effective Mobile navigation bar.</p>	
 				</div>
 				<!-- End Single features-->
@@ -1580,7 +1580,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-2.png" alt="hero image">
 						<p class="features-caption">You can easily customize color with presets color.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">Theme Skins</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">Theme Skins</p></a>
 					<p class="features-caption-r">You can easily customize color with presets color.</p>	
 				</div>
 				<!-- End Single features-->
@@ -1590,7 +1590,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-3.png" alt="hero image">
 						<p class="features-caption">You can easily customize Backgrounds with presets Backgrounds options.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">Backgrounds</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">Backgrounds</p></a>
 					<p class="features-caption-r">You can easily customize Backgrounds with presets Backgrounds options.</p>	
 				</div>
 				<!-- End Single features-->
@@ -1600,7 +1600,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-4.png" alt="hero image">
 						<p class="features-caption">You can use dark mode with more effective and eye catching layout.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">Dark mode</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">Dark mode</p></a>
 					<p class="features-caption-r">You can use dark mode with more effective and eye catching layout.</p>	
 				</div>
 				<!-- End Single features-->
@@ -1610,7 +1610,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-5.png" alt="hero image">	
 						<p class="features-caption">You can easily customize RTL mode with presets RTL mode options.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">RTL mode</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">RTL mode</p></a>
 					<p class="features-caption-r">You can easily customize RTL mode with presets RTL mode options.</p>
 				</div>
 				<!-- End Single features-->
@@ -1620,7 +1620,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-15.png" alt="hero image">	
 						<p class="features-caption">Powerful bonus plugin, your customers directly contact with your whatsapp number.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">10+ Support chat Plugin</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">10+ Support chat Plugin</p></a>
 					<p class="features-caption-r">Bonus plugin, your customers directly contact with your whatsapp number via whatsapp.</p>
 				</div>
 				<!-- End Single features-->
@@ -1630,7 +1630,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-9.png" alt="hero image">
 						<p class="features-caption">User notify that some one bouth a product recently.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">recently purchased</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">recently purchased</p></a>
 					<p class="features-caption-r">User notify that some one bouth a product recently.</p>	
 				</div>
 				<!-- End Single features-->
@@ -1641,7 +1641,7 @@
 						<img class="key-features-image features-image style-image" src="landing-assets/img/key-10.png" alt="hero image">
 						<p class="features-caption">Most powerful language translator plugin that gives you no communication barriers with your customer.</p>						
 					</div>
-					<a href="ekka-html/index.html"><p class="features-text">Translator Plugin</p></a>
+					<a href="ekka-html/{{url('/')}}"><p class="features-text">Translator Plugin</p></a>
 					<p class="features-caption-r">Most powerful language translator plugin that gives you no communication barriers with your customer.</p>
 				</div>
 				<!-- End Single features-->
