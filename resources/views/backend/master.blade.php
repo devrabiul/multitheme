@@ -1,7 +1,3 @@
-@php
-$currentRouteName = Route::currentRouteName();
-@endphp
-
 <!DOCTYPE html>
 <html lang="en">
 

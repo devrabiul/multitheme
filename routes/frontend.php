@@ -22,11 +22,11 @@ Route::group(['namespace' => 'web'], function(){
         return view(VIEW_FILE_NAMES['frontend_profile']);
     })->name('frontend.login');
 
-    Route::get('customer/login', function () {
+    Route::get('/login', function () {
         return view(VIEW_FILE_NAMES['frontend_login']);
     })->name('frontend.login');
 
-    Route::get('customer/register', function () {
+    Route::get('/register', function () {
         return view(VIEW_FILE_NAMES['frontend_register']);
     })->name('frontend.register');
 

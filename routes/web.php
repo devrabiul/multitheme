@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view(VIEW_FILE_NAMES['frontend_index']);
 });
 
-Auth::routes();
+Route::group(['prefix' => 'admin'], function() {
+    // Route::auth();
+    Auth::routes();
+});
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');

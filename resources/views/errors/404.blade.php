@@ -19,28 +19,28 @@
 	 <meta name="author" content="ashishmaraviya">
 
 	<!-- site Favicon -->
-	<link rel="icon" href="{{ theme_asset('assets') }}/images/favicon/favicon.png" sizes="32x32" />
-	<link rel="apple-touch-icon" href="{{ theme_asset('assets') }}/images/favicon/favicon.png" />
-	<meta name="msapplication-TileImage" content="{{ theme_asset('assets') }}/images/favicon/favicon.png" />
+	<link rel="icon" href="{{ asset('public/frontend-assets/') }}/images/favicon/favicon.png" sizes="32x32" />
+	<link rel="apple-touch-icon" href="{{ asset('public/frontend-assets/') }}/images/favicon/favicon.png" />
+	<meta name="msapplication-TileImage" content="{{ asset('public/frontend-assets/') }}/images/favicon/favicon.png" />
 
 	<!-- css Icon Font -->
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/vendor/ecicons.min.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/vendor/ecicons.min.css" />
 
 	<!-- css All Plugins Files -->
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/animate.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/jquery-ui.min.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/countdownTimer.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/slick.min.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/nouislider.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/plugins/bootstrap.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/animate.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/jquery-ui.min.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/countdownTimer.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/slick.min.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/nouislider.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/plugins/bootstrap.css" />
 
 	<!-- Main Style -->
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/style.css" />
-	<link rel="stylesheet" href="{{ theme_asset('assets') }}/css/responsive.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/style.css" />
+	<link rel="stylesheet" href="{{ asset('public/frontend-assets/') }}/css/responsive.css" />
 
 	<!-- Background css -->
-	<link rel="stylesheet" id="bg-switcher-css" href="{{ theme_asset('assets') }}/css/backgrounds/bg-4.css">
+	<link rel="stylesheet" id="bg-switcher-css" href="{{ asset('public/frontend-assets/') }}/css/backgrounds/bg-4.css">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
 		<div class="container">
 		  <div class="row">
 			<div class="col-sm-12 text-center">
-				<img class="img-404" src="{{ theme_asset('assets') }}/images/common/404-error-page.gif" alt="" />
+				<img class="img-404" src="{{ asset('public/frontend-assets/') }}/images/common/404-error-page.gif" alt="" />
 
 				<h1 class="main-title text-center">404</h1>
 				<h3 class="sub-title text-center">Look like you're lost</h3>
@@ -65,25 +65,25 @@
 	<!-- End main Section -->
 
 	<!-- Vendor JS -->
-	<script src="{{ theme_asset('assets') }}/js/vendor/jquery-3.5.1.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/vendor/popper.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/vendor/bootstrap.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/jquery-3.5.1.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/popper.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/bootstrap.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/modernizr-3.11.2.min.js"></script>
 
 	<!--Plugins JS-->
-	<script src="{{ theme_asset('assets') }}/js/plugins/swiper-bundle.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/plugins/countdownTimer.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/plugins/scrollup.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/plugins/jquery.zoom.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/plugins/slick.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/plugins/infiniteslidev2.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/vendor/jquery.magnific-popup.min.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/plugins/jquery.sticky-sidebar.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/swiper-bundle.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/countdownTimer.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/scrollup.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/jquery.zoom.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/slick.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/infiniteslidev2.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/jquery.magnific-popup.min.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/plugins/jquery.sticky-sidebar.js"></script>
 
 	<!-- Main Js -->
-	<script src="{{ theme_asset('assets') }}/js/vendor/index.js"></script>
-	<script src="{{ theme_asset('assets') }}/js/main.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/vendor/index.js"></script>
+	<script src="{{ asset('public/frontend-assets/') }}/js/main.js"></script>
 
 </body>
 
