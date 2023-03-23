@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'admin'], function() {
     // Route::auth();
-    Auth::routes();
+    Auth::routes(['verify'=>true]);
 });
 
 
