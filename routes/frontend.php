@@ -66,4 +66,4 @@ Route::group(['namespace' => 'web'], function(){
 
 Route::get('/dashboard', function () {
     return view('backend.index');
-})->name('backend.index');
+})->name('backend.index')->middleware('auth');

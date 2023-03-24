@@ -1,0 +1,8 @@
+MAIL_MAILER=smtp
+MAIL_HOST=mail.rixetbd.com
+MAIL_PORT=465
+MAIL_USERNAME=rabiul@rixetbd.com
+MAIL_PASSWORD="amarsonarbangla2023"
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="rabiul@rixetbd.com"
+MAIL_FROM_NAME="${APP_NAME}"
